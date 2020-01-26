@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.17.8-alpine
 
 ENV NGINX_WORKSPACE_ROOT=/var/www/html
 ENV NGINX_ROOT_PATH_REDIRECT=/index.php?\$args
