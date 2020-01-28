@@ -5,8 +5,7 @@ This is a Docker image
 ## How to use this image
 
 ```shell
-$ docker run --name some-xnginx --network some-network -d registry.cn-hangzhou.aliyuncs.com/esiran/xnginx
-
+docker run --name some-xnginx --network some-network -d registry.cn-hangzhou.aliyuncs.com/esiran/xnginx
 ```
 
 The following environment variables are also honored for configuring your WordPress instance:
