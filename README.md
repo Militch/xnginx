@@ -8,7 +8,11 @@ This is a Docker image
 docker run --name some-xnginx --network some-network -d registry.cn-hangzhou.aliyuncs.com/esiran/xnginx
 ```
 
-The following environment variables are also honored for configuring your WordPress instance:
+The following environment variables are also honored for configuring your Xnginx instance:
+
+- `-e NGINX_SERVER_HOST` (default to `80`)
+
+- `-e NGINX_SERVER_NAME` (default to `_`)
 
 - `-e NGINX_WORKSPACE_ROOT` (default to `/var/www/html`)
 
