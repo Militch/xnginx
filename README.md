@@ -2,10 +2,17 @@
 
 This is a Docker image
 
+## Docker image tags
+
+- `1.17.8-php-fpm`, `php-fpm`
+- `1.17.8-maccms10`, `maccms10`, `maccms`
+
 ## How to use this image
 
 ```shell
-docker run --name some-xnginx --network some-network -d registry.cn-hangzhou.aliyuncs.com/esiran/xnginx
+$ docker run --name some-xnginx \
+--network some-network -d \
+registry.cn-hangzhou.aliyuncs.com/esiran/xnginx:some-tag
 ```
 
 The following environment variables are also honored for configuring your Xnginx instance:
